@@ -91,6 +91,7 @@
   main {
     margin: auto;
     width: 90vw;
+    padding-left: calc(100vw - 100%); /* https://stackoverflow.com/a/30293718 */
   }
 
   .loading {
