@@ -1,5 +1,6 @@
 import { readable, writable } from 'svelte/store';
 
+export let levels = writable([]);
 export let levelNumber = writable(1);
 export let advancedSettings = writable(true);
 

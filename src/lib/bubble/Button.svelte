@@ -32,7 +32,7 @@
 </script>
 
 <button on:click={handleClick} class:correct>
-  {text}
+  {@html text}
   {#if type === 'click'} <br /> ({clickCounter}) {/if}
 </button>
 
