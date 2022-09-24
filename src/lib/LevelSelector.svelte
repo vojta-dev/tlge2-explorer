@@ -5,7 +5,7 @@
 <button on:click={() => ($levelNumber = Math.floor(Math.random() * $MAX_LEVEL_NUMBER) + 1)}>Random</button>
 <div>
   <button on:click={() => $levelNumber--}>Prev</button>
-  <input type="number" bind:value={$levelNumber} />
+  <input type="number" bind:value={$levelNumber} aria-label="Level number" />
   <button on:click={() => $levelNumber++}>Next</button>
 </div>
 

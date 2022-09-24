@@ -19,7 +19,7 @@
   }
 
   footer a {
-    color: #60a5fa;
+    color: #92eefa;
     text-decoration: none;
   }
 </style>

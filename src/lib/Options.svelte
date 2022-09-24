@@ -9,8 +9,7 @@
 </script>
 
 <div>
-  <label for="checkbox">Advanced</label>
-  <input type="checkbox" bind:checked />
+  <label>Advanced <input type="checkbox" bind:checked /></label>
 </div>
 
 <style>
