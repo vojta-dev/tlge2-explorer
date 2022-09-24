@@ -1,4 +1,6 @@
 <script>
+  import Collab from './levelSolvers/Collab.svelte';
+
   export let args;
   export let typeOfLevel;
   export let textData;
@@ -60,5 +62,7 @@
     guess a random number from {argsArray[0]} to {argsArray[1]}
   {:else if typeOfLevel === 'flappyBird'}
     flappy bird .__.
+  {:else if typeOfLevel === 'collabfriend'}
+    <Collab {args} />
   {/if}
 </h3>
