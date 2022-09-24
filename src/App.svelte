@@ -76,7 +76,9 @@
     {/if}
   {/if}
 
-  <Footer repoName="tlge2-explorer" />
+  <Footer repoName="tlge2-explorer">
+    | Data from <a href="https://play.google.com/store/apps/details?id=xyz.lesecureuils.longestgameever2">TLGE2</a>
+  </Footer>
 </main>
 
 <style>

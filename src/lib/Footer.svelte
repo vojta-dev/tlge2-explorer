@@ -1,14 +1,11 @@
 <script>
   export let repoName;
-  export let fields = [];
 </script>
 
 <footer>
   <small>
     &copy; {new Date().getFullYear()} Vojta | <a href="https://github.com/vojta-dev/{repoName}">GitHub</a>
-    {#each fields as field}
-      <a href={field[1]}>{field[0]}</a>
-    {/each}
+    <slot />
   </small>
 </footer>
 
@@ -18,7 +15,7 @@
     text-align: center;
   }
 
-  footer a {
+  footer :global(a) {
     color: #92eefa;
     text-decoration: none;
   }
