@@ -75,9 +75,9 @@
       {/if}
     {/if}
   {/if}
-</main>
 
-<Footer repoName="tlge2-explorer" />
+  <Footer repoName="tlge2-explorer" />
+</main>
 
 <style>
   :global(body) {
